@@ -1,0 +1,418 @@
+@font-face {
+	font-family: 'FuturaLT';
+	src: url('../fonts/FuturaLT/FuturaLT.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'FuturaLT Heavy';
+	src: url('../fonts/FuturaLT/FuturaLT-Heavy.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'FrutigerLTStd Cn';
+	src: url('../fonts/frutiger/FrutigerLTStd-Cn.otf') format('opentype');
+}
+@font-face {
+	font-family: 'FrutigerLTStd BoldCn';
+	src: url('../fonts/frutiger/FrutigerLTStd-BoldCn.otf') format('opentype');
+}
+@font-face {
+	font-family: 'FrutigerLTStd Roman';
+	src: url('../fonts/frutiger/FrutigerLTStd-Roman.otf') format('opentype');
+}
+@font-face {
+	font-family: 'FrutigerLTStd Light';
+	src: url('../fonts/frutiger/FrutigerLTStd-Light.otf') format('opentype');
+}
+@font-face {
+	font-family: 'FuturaLT';
+	src: url('../fonts/FuturaLT/FuturaLT.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'FrutigerLTStd Cn';
+	src: url('../fonts/frutiger/FrutigerLTStd-Cn.otf') format('opentype');
+}
+@font-face {
+	font-family: 'FrutigerLTStd LightCn';
+	src: url('../fonts/frutiger/FrutigerLTStd-LightCn.otf') format('opentype');
+}
+@media screen and (max-width: 900px) {
+	hr.custom-3-4-divider {
+		width: 0%;
+		float: left;
+		max-width: 500px;
+	}
+}
+@media screen and (min-width: 900px) {
+	hr.custom-3-4-divider {
+		width: 87%;
+		float: left;
+		max-width: 700px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.large-header{
+		display: none;
+	}
+	.into-background{
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.hidden-nav{
+		cursor: pointer;
+	}
+	.hidden-nav>span.glyphicon.glyphicon-align-justify {
+		height: 50px;
+		width: 50px;
+		font-size: 30px;
+		margin-top: 27px;
+	}
+	.intro-layout>header>h1 {
+		font-size: 35.346px;
+	}
+	.trial-button,.explore-button{
+		font-size: 16px;
+		margin-top: 1.0rem;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.into-background{
+		background-position: center top;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: fixed;
+	}
+	.hidden-nav{
+		display: none;
+	}
+	.intro-layout>header>h1 {
+		font-size: 80.346px;
+	}
+	.trial-button,.explore-button{
+		font-size: 20.099px;
+	}
+}
+@media screen and (min-width: 990px) {
+	.right-border {
+		border-right: 1px solid rgb(197, 197, 197);
+	}
+	.lets-talk {
+		padding-left: 50px;
+	}
+}
+@media screen and (max-width: 500px){
+	.trial-button{
+		margin: -10px !important;
+	}
+}
+.container{
+	max-width: 112.5rem;
+}
+.left-sidebar{
+	position: fixed;
+	top: 80px;
+	padding-top: 4rem;
+	width: 30.0rem;
+	max-width: 40.0rem;
+	min-height: 40.0rem;
+	z-index: 1000;
+	height: 100%;
+	background-color: #fff; 
+}
+.tabs{
+	min-height: 6.0rem; 
+}
+.hidden{
+	display: none;
+}
+a.navbar-brand {
+	-webkit-transition: height 1s,padding 1s; /* For Safari 3.1 to 6.0 */
+    transition: height 1s,padding 1s;
+	height: 9.0rem;
+}
+a.navbar-brand.small {
+	padding: 8px 15px;
+	height: 0;
+}
+.into-background{
+	overflow: hidden;
+	width: 100%;
+	min-height: 40.0rem;
+	background-attachment: fixed;
+	background-image: url("/images/call-center-1940x900_35840.jpg");
+}
+h1{margin: 0px;}
+.intro-bar>i{
+	font-size: 3.4rem;
+	padding: 4.0rem;
+}
+.intro-layout>header {
+	padding: 14px 0px;
+}
+.intro-layout>header>h1{
+	font-family: "FuturaLT";
+	color: rgba(255, 255, 255, 0.961);
+	line-height: 1.2;
+	text-align: center;
+}
+.intro-layout>p{
+	font-size: 26px;
+	font-family: "FrutigerLTStd Light";
+	color: rgb(224, 224, 224);
+	line-height: 1.01;
+	text-align: center;
+}
+.intro-layout{
+	max-width: 100.0rem;
+	opacity: 0.85;
+	min-height: 40.0rem;
+	margin-top: 12%;
+	font-family: "FuturaLT","FuturaLT Heavy", Serif;
+	color: #f9f9f9;
+	background-color: #242325;
+	background-position: fixed;
+	padding: 4.0rem;
+}
+.button{
+	height: 100%;
+}
+a.button {
+	vertical-align: baseline;
+	text-decoration: none;
+}
+.header{
+	color: #565865;
+}
+.logo{
+	height: 5.5rem;
+}
+.right{
+	float:right;
+}
+.services{
+	font-family: "FrutigerLTStd Cn","FrutigerLTStd BoldCn","Myriad Pro", Serif;
+	background-color: #f9fafd;
+	min-height: 525px;
+	padding: 40px;
+}
+.clients{
+	font-size: 24px;
+	font-family: "Myriad Pro";
+	color: rgb(172, 173, 175);
+	line-height: 1.828;
+	text-align: center;
+}
+.clients>div.container{
+	padding: 4.0rem 0rem;
+}
+.contact{
+	background-image: url("/images/office.png");
+	/*height: 680px;*/
+	font-family: "FuturaLT";
+	color: #fff;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #3d3e42;
+	/*filter: brightness(0.6);
+	-webkit-filter: brightness(0.6);*/
+}
+.address{
+	margin-bottom: 30px;
+}
+.address>p{
+	font-family: "FuturaLT Light","FuturaLT";
+	font-size: 16px;
+	margin-top: 0px;
+	color: rgb(244, 244, 244);
+}
+.address>header {
+  font-size: 20px;
+  font-family: "FuturaLT";
+  color: rgb(202, 202, 202);
+  line-height: 2.193;
+}
+.contact>div.container{
+	padding: 6.0rem 0rem;
+}
+.contact-header{
+	padding: 1.5rem 0rem;
+}
+.contact-heading{
+	font-family: "FuturaLT";
+	cursor: pointer;
+	font-size: 20px;
+}
+.clients-container{
+	padding: 4.0rem 0rem 0rem 0rem;
+}
+.contact-form-textarea,.contact-form-input{
+	width: 100%;
+	padding: 1rem 0.2rem; 
+	margin: 1rem 0rem;
+	background: transparent;
+}
+.custom-primary{
+	background-color: #0cc5b6;
+	color: #fff;
+}
+button.custom-warning{
+	background-color: #e4685d;
+	color: #000;
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	border:1px solid #e4685d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+button.custom-warning:hover {
+	background-color:#eb675e;
+}
+button.custom-warning:active {
+	position:relative;
+	top:1px;
+}
+.service-logo{
+	margin:1.0rem; 
+}
+.service-heading{
+	font-size: 4.0982rem;
+	font-family: "FrutigerLTStd Cn","FrutigerLTStd BoldCn","Myriad Pro", Serif;
+	color: rgb(88, 89, 96);
+	line-height: 1.2;
+	text-align: center;
+	-moz-transform: matrix( 1.00041482720385,0,0,1.00042085011724,0,0);
+	-webkit-transform: matrix( 1.00041482720385,0,0,1.00042085011724,0,0);
+	-ms-transform: matrix( 1.00041482720385,0,0,1.00042085011724,0,0);
+}
+.sub-heading{
+  font-size: 18.48px;
+  font-family: "FrutigerLTStd Light","FrutigerLTStd Cn","FrutigerLTStd BoldCn","Myriad Pro", Serif;
+  color: rgb(84, 86, 94);
+  line-height: 1.948;
+  text-align: center;
+  -moz-transform: matrix( 1.29999640722838,0,0,1.29873215160069,0,0);
+  -webkit-transform: matrix( 1.29999640722838,0,0,1.29873215160069,0,0);
+  -ms-transform: matrix( 1.29999640722838,0,0,1.29873215160069,0,0);
+}
+
+.service-desc{
+	font-size: 1.8992rem;
+	font-family: "FrutigerLTStd Light","FrutigerLTStd Cn","FrutigerLTStd BoldCn","Myriad Pro", Serif;
+	color: rgb(119, 119, 119);
+	line-height: 1.474;
+	padding: 30px 40px;
+	text-align: center;
+	-moz-transform: matrix( 1.00041482720385,0,0,1.00042085011724,0,0);
+	-webkit-transform: matrix( 1.00041482720385,0,0,1.00042085011724,0,0);
+	-ms-transform: matrix( 1.00041482720385,0,0,1.00042085011724,0,0);
+}
+.trial-button,.explore-button{
+	padding: 10px;
+	margin: 10px;
+	height: 40px;
+	text-decoration: none;
+	font-family: "FrutigerLTStd Roman";
+	color: rgb(255, 255, 255);
+	line-height: 2.5;
+	-moz-transform: matrix( 0.7994849616533,0,0,0.79607200861905,0,0);
+	-webkit-transform: matrix( 0.7994849616533,0,0,0.79607200861905,0,0);
+	-ms-transform: matrix( 0.7994849616533,0,0,0.79607200861905,0,0);
+}
+.trial-button{
+	background-color: rgb(229, 78, 78);
+	box-shadow: 0px 2px 0px 0px rgba(183, 39, 39, 0.004);
+}
+.explore-button{
+	background-color: rgb(12, 197, 182);
+	box-shadow: 0px 2px 0px 0px rgba(10, 152, 140, 0.004);
+	width: 86px;
+}
+a:hover,.customer-logo,.nav-link{
+	text-decoration: none;
+	cursor: pointer;
+}
+.custom-danger{
+	background-color: #e54e4e;
+	color: #fff;
+}
+a.button.header{
+	font-family: "FrutigerLTStd BoldCn";
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+a.button.header.light{
+	font-size: 14.235px;
+	font-family: "FrutigerLTStd Cn";
+	color: rgba(86, 88, 101, 0.902);
+  	line-height: 1.335;
+  	-moz-transform: matrix( 1.1239857000901,0,0,1.1239857000901,0,0);
+	-webkit-transform: matrix( 1.1239857000901,0,0,1.1239857000901,0,0);
+	-ms-transform: matrix( 1.1239857000901,0,0,1.1239857000901,0,0);
+}
+.Shape_1 {
+  background-color: rgb(229, 78, 78);
+  position: absolute;
+  left: 1216px;
+  top: 26px;
+  width: 64px;
+  height: 28px;
+  z-index: 20;
+}
+
+a.button.header.custom-danger{
+	font-size: 14.235px;
+	width: 64px;
+	margin-top: 3px;
+	padding-top: 6px;
+	height: 28px;
+	font-family: "FrutigerLTStd LightCn";
+	color: rgb(255, 255, 255);
+	line-height: 1.335;
+	-moz-transform: matrix( 1.1239857000901,0,0,1.1239857000901,0,0);
+	-webkit-transform: matrix( 1.1239857000901,0,0,1.1239857000901,0,0);
+	-ms-transform: matrix( 1.1239857000901,0,0,1.1239857000901,0,0);
+}
+.large-header {
+	transition: padding-top 1s, padding-bottom 1s;
+	-webkit-transition: padding-top 1s, padding-bottom 1s;
+	padding-top: 27px;
+}
+.large-header.small {
+	padding-top: 16px;
+	padding-bottom: 10px;
+}
+a.custom-danger{
+	border:1px solid #e4685d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-align: center;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.full-size{
+	position: relative;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+	overflow:hidden;
+}
+.custom-dark{
+	background-color: #000;
+}
+.footer{
+	min-height: 200px;
+}
